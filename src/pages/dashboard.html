@@ -11,17 +11,29 @@
 <body>
   <div id="dashboard">
     <h1>Select Your City</h1>
+    <input type="text" id="city-search" placeholder="Search for a city">
     <select id="city-select">
       <option value="">Choose a city</option>
       <option value="newyork">New York</option>
       <option value="singapore">Singapore</option>
       <option value="london">London</option>
+      <option value="berlin">Berlin</option>
+      <option value="tokyo">Tokyo</option>
+      <option value="paris">Paris</option>
+      <option value="sydney">Sydney</option>
     </select>
     <div id="map-container">
       <div id="map"></div>
     </div>
+    <div id="weather-widget"></div>
+    <div id="clock"></div>
+    <a href="settings.html">Settings</a>
   </div>
   <script src="../js/dashboard.js"></script>
   <script src="../js/map.js"></script>
+  <script src="../js/weather.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/clock.js"></script>
+  <script src="../js/animation.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@
     var city=select.value;
     if(city){
       loadMap(city);
+      updateWeather(city);
     }
   });
   window.loadMap=function(city){

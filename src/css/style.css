@@ -1,31 +1,77 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: #121212;
-    color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+}
+#terminal {
+  width: 80%;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #333;
+  background: #000;
+  box-shadow: 0 0 10px #000;
+}
+#output {
+  min-height: 150px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+#input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #222;
+  color: #e0e0e0;
+  font-family: monospace;
+  font-size: 16px;
+}
+#dashboard {
+  text-align: center;
+  padding: 50px;
+}
+#city-select {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#map-container {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  border: 1px solid #333;
+  background: #fff;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+#weather-widget {
+  margin-top: 20px;
+  font-size: 18px;
+}
+#clock {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#city-search {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  #terminal {
-    width: 80%;
-    max-width: 600px;
-    margin: 100px auto;
-    padding: 20px;
-    border: 1px solid #333;
-    background: #000;
-    box-shadow: 0 0 10px #000;
+  to {
+    opacity: 1;
   }
-  #output {
-    min-height: 150px;
-    font-family: monospace;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-  #input {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background: #222;
-    color: #e0e0e0;
-    font-family: monospace;
-    font-size: 16px;
-  }
+}

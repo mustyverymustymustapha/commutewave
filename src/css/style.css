@@ -75,3 +75,20 @@ body {
     opacity: 1;
   }
 }
+.light-mode {
+  background: #f5f5f5;
+  color: #333;
+}
+.light-mode #terminal {
+  background: #fff;
+  border-color: #ccc;
+  box-shadow: 0 0 10px #aaa;
+}
+.light-mode #input {
+  background: #eee;
+  color: #333;
+}
+.light-mode #map-container {
+  background: #fafafa;
+  border-color: #ccc;
+}

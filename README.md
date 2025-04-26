@@ -13,3 +13,5 @@ commutewave is a modern project website for live public transport maps. It start
 - Responsive design and polished UI.
 
 Enjoy using commutewave!
+
+(To use, visit https://commutewavesite.vercel.app/)
